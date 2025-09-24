@@ -18,17 +18,21 @@ It is designed for ease of use by researchers, lab technicians, and data analyst
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Mcmellywonder/whonet-sqlite-to-excel.git
+   git clone https://github.com/Mcmellywonder/WHONET-SQlite2Excel.git
    cd whonet-sqlite-to-excel
    ```
+   or
+   ```   bash
+         https://github.com/Mcmellywonder/WHONET-SQlite2Excel
+   ```
 
-2. **Create a virtual environment (optional but recommended)**
+3. **Create a virtual environment (optional but recommended)**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**
+4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
