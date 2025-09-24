@@ -1,1 +1,27 @@
+```txt
+# Core functionality
+pandas>=2.0.0
+openpyxl>=3.1.0
 
+# GUI (Tkinter is built-in, but these enhance it)
+ttkthemes>=3.2.0         # Optional: adds modern themes to Tkinter
+Pillow>=10.0.0           # Optional: for image support in GUI (e.g., icons, previews)
+
+# File validation and dialogues
+python-magic>=0.4.27     # Optional: for robust file type detection
+
+# Logging and debugging
+loguru>=0.7.2            # Optional: elegant logging system
+
+# Packaging and distribution
+pyinstaller>=6.0.0       # Optional: to convert your app into a standalone executable
+
+# Future enhancements (e.g., drag-and-drop, advanced GUI)
+customtkinter>=5.2.0     # Optional: modern GUI framework built on Tkinter
+```
+
+### 💡 Tips:
+- You can install all dependencies with:
+  ```bash
+  pip install -r requirements.txt
+  ```
